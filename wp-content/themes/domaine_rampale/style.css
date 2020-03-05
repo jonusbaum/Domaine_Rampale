@@ -1,0 +1,119 @@
+/*!
+Theme Name: Domaine_rampale
+Theme URI: http://underscores.me/
+Author: varsha gupta
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: domaine_rampale
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Domaine_rampale is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+/* normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+.over_block{
+	position:relative;
+}
+.over_block:before{
+	background-color:rgba(0,0,0,0.3);
+	content:'';
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	position:absolute;
+	z-index: 1;
+}
+.over_block h5,
+.over_block h2,
+.over_block h3,
+.over_block p,
+.over_block a{ 
+    z-index: 100;
+    position: relative;
+}
+.previous-timeline a,
+.next-timeline a{
+	color:#000 !important;
+}
+.previous-timeline h5,
+.next-timeline h5{
+	font-weight:bold;
+}
+.previous-timeline img, .next-timeline img{
+	width:60%;
+	height:auto;
+}
+.footer-pagination{
+	border-top: 1px solid rgba(0,0,0,0.1);
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.text-slider .sy-list li a{
+	cursor:default;
+	color:#000 !important;
+	text-decoration:none;
+}
+.text-slider .sy-controls li a:after {
+	background-image: url(images/arrows_black.png) !important;
+}
+.text_slider_content,
+.text-slider h2,
+.section5_link{
+	padding: 0 11%;
+}
+.header_link{
+	display:inline-block;
+}
+
+.header_link img {
+    filter: invert(100%) sepia(0%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+    height: auto !important;
+    width: 32px !important;
+}
+.byline{
+	display:none !important;
+}

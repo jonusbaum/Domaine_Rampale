@@ -1,0 +1,28 @@
+@include font-face(Gilroy, fonts/CormorantGaramond-Medium, 500, normal, eot woff2 woff ttf svg);
+@include font-face(Gilroy, fonts/CormorantGaramond-SemiBold, 600, normal, eot woff2 woff ttf svg); 
+@include font-face(Gilroy, fonts/CormorantGaramond-Regular, normal, normal, eot woff2 woff ttf svg); 
+@include font-face(Gilroy, fonts/CormorantGaramond-Bold, bold, normal, eot woff2 woff ttf svg); 
+@include font-face(Gilroy, fonts/Raleway-ExtraLight, 200, normal, eot woff2 woff ttf svg); 
+@include font-face(Gilroy, fonts/Raleway-Light, 300, normal, eot woff2 woff ttf svg); 
+@include font-face(Gilroy, fonts/Raleway-Black, 900, normal, eot woff2 woff ttf svg); 
+@include font-face(Gilroy, fonts/Raleway-Bold, bold, normal, eot woff2 woff ttf svg);
+@include font-face(Gilroy, fonts/Raleway-Regular, normal, normal, eot woff2 woff ttf svg); 
+@include font-face(Gilroy, fonts/Raleway-ExtraBold, 800, normal, eot woff2 woff ttf svg); 
+@include font-face(Gilroy, fonts/Raleway-Medium, 500, normal, eot woff2 woff ttf svg);  
+
+
+$font__main: 'Raleway', sans-serif;
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__line-height-body: 1.5;
+$font__line-height-pre: 1.6;
+$title__main:  'Cormorant Garamond', serif;
+
+$font-weight-thin:            100 !default;
+$font-weight-light:           200 !default;
+$font-weight-normal:          400 !default;
+$font-weight-medium:          500 !default;
+$font-weight-semibold:        600 !default;
+$font-weight-bold:            800 !default;
+$font-weight-black:           900 !default;
+
